@@ -1,0 +1,274 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.clase_barranav{
+    background-color: grey;
+    width: 100%;
+    height: 4em;
+    display:flex;
+    justify-content: center;
+   
+}
+.clase_logo{    
+    
+    width: 8em;
+    height: 4em;  
+}
+#id_logobsas{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;  
+    padding-top: 10px;
+   
+}
+.clase_lista{
+  padding-left: 15%;
+
+}
+li{
+    list-style: none;
+    color:rgb(172, 160, 160);
+    display:inline-block;
+    margin:20px 5px;
+    
+}
+#id_blanco{
+    color:white;
+}
+#id_tickets{
+    color: green;
+}
+/**/
+/**/
+/*termina el nav*/
+.sector_uno{
+    height: 25em;
+    background-image: url("fotos codo/ba1.jpg");
+    display: flex;/* elimino el margen entre nav y body*/
+   
+}
+.clase_fondotexto{    
+    position: relative;
+    display: flex;   
+    margin-left: 70%; 
+}
+.clase_h1{
+    color: white; 
+    size: 2em;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 60%;
+    
+}
+#txt_uno{
+  
+  margin: 30% 0%;
+  text-align:end;
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+  font-size: xx-small;
+  line-height: 1.5em;
+ 
+  color: white;
+}
+.btn_transparente{
+    background-color:transparent;
+    color: white;
+    margin: 4px;
+    padding: 8px 5px;
+    border-color: white;
+    border-radius: 10%;
+    position: absolute;
+    margin: 70% 0% 0% 20%;
+}
+.btn_verde{
+    background-color: green;
+    color: white;
+    margin: 4px;
+    padding: 8px 5px;
+    border-color: green;
+    border-style: none;
+    border-radius: 10%;
+    position: absolute;
+    margin: 70% 0% 0% 60%;
+
+}
+/**/
+/**/
+/**/
+.sector_dos{
+    width: 100%;
+    
+}
+.clase_subtitulo{
+    display: flex;
+    justify-content: center;
+    margin: 8px 0px 4px 0px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 4px 0px;
+}
+.ContainerDeCajas{
+  
+    display: flex;
+    justify-content: space-around;
+    
+}
+.clase_cajas{
+    width:20em;    
+    
+}
+.ft_desarrollador{
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+.borde_cajas{
+   padding:20px 14px;
+   border: rgb(220, 207, 207) solid;
+   border-radius: 0% 0% 2% 2%;
+   margin-bottom: 20px;
+}
+.btn_amarillo{
+    background-color: yellow;
+    border: yellow;
+    border-radius: 10%;
+    padding: 4px;
+}
+.btn_celeste{
+    background-color: skyblue;
+    border: skyblue;
+    border-radius: 10%;
+    padding: 4px;
+    color: white;
+}
+.btn_gris{
+    background-color: grey;
+    border: grey;
+    border-radius: 10%;
+    padding: 4px;
+    color: white;
+}
+.btn_rojo{
+    background-color: red;
+    border: red;
+    border-radius: 10%;
+    padding: 4px;
+    color: white;
+}
+h3{
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+.p_descripcion{
+
+  line-height: 2em;
+}
+
+/**/
+/**/
+/**/
+.sector_tres{
+    width: 100%;
+    display: flex;
+}
+.ft_playa{
+    width: 50%;
+    
+}
+.clase_playa{
+    width: 50%;
+    padding: 20px 10px;
+    background-color: rgb(69, 67, 67);
+    margin-left: 1px;
+}
+h4{
+    color: white;
+    font-size: 2em;
+    margin-bottom: 4px;
+}
+#clase_pblanco{
+    color: white;
+    line-height: 2em;
+    font-size: x-small;
+}
+.btn_tgris{
+    background: transparent;
+    border-color: white;
+    color: white;
+    margin-top: 8px;
+    padding: 4px;
+}
+
+/**/
+/**/
+/**/
+.clase_form{
+  
+   width: 50%;
+   margin: 0px auto;
+   padding: 20px;
+   /*text-align: center;*/
+}
+#id_subrayado{
+
+    text-decoration: underline 2px black;/*dotted no funciona*/
+
+}
+
+.inputjuntos{
+display: flex;
+justify-content: space-between;
+}
+.input_datos{
+    width: 40%;
+   
+    margin:8px 0px 8px 0px;
+    padding: 8px 2px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    padding:8px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    color: rgb(116, 112, 112);
+}
+#p_form{
+    margin-bottom: 8px;
+    font-size: small;
+    color: rgb(116, 112, 112);
+}
+.input_verde{
+    width: 100%;
+    background-color: rgb(60, 206, 60);
+    padding: 6px 300px;
+    font-size: 1.5em;
+    border-color: rgb(60, 206, 60);
+    border-radius: 1%;
+    border-style: none;
+    color:white;
+}
+/**/
+/**/
+/*termina el body*/
+footer{
+    background-image: linear-gradient(to top, #197b7b 0%, #270c49 100%);
+}
+footer ul{
+    margin-left: 10%;
+    margin-right: 10%;
+   
+} 
+footer ul li{
+    list-style: none;
+    color:white;
+    display:inline-block;
+    
+    margin:20px 5px;
+}
